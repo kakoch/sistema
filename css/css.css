@@ -1,0 +1,232 @@
+#menu{
+  border: 10px solid #7B68EE;
+  background: #4B0082 ;
+  position: center;
+  width: 35%;
+  height: 80px;
+  margin: auto;
+}
+#menu td{
+  text-align: center;
+}
+#menu td a{
+  font-size: 30px;
+  color: #8A2BE2;
+  text-align: center;
+  text-decoration: none;
+}
+.logar,.cadastro, .cevent, .ccoffee, .csala, .cpessoa, .palterar,.salterar,.cfalterar, .ealterar{
+	background: #4B0082 ;
+  margin:auto;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+  border-color: #A9A9A9;
+  border: 10px solid #7B68EE;
+
+}
+.logar label,
+.cadastro label,
+.cevent label,
+.csala label,
+.cpessoa label,
+.palterar label,
+.cfalterar label,
+.salterar label,
+.ealterar label,
+.ccoffee label{
+  margin:auto;
+  text-align: center;
+  color: #8A2BE2;
+
+}
+.logar input,.cadastro input,.cevent input, .ccoffee input, .csala input, .cpessoa input,.palterar input, .salterar input, .cfalterar input, .ealterar input{
+  margin:auto;
+  text-align: static;
+  color: #8A2BE2;
+}
+.logar input[type=email], input[type=password],
+.cadastro input[type=email], input[type=password], input[type=text], input[type=date], input[type=number],
+.palterar input[type=email], input[type=password], input[type=text], input[type=date], input[type=number],
+.cevent input[type=text], input[type=date], input[type=number], input[type=submit],
+.ealterar input[type=text], input[type=date], input[type=number], input[type=radio],
+.cpessoa input[type=email], input[type=text], input[type=date], input[type=number], input[type=radio],
+.salterar input[type=text], input[type=number],
+.cfalterar input[type=text], input[type=number],
+.ccoffee input[type=text], input[type=number],
+.csala input[type=text], input[type=number]
+{
+  color: #8A2BE2;
+  font-weight: bolder;
+  font-size:20px ;
+  text-align: center;
+  text-decoration: none;
+  background: #7B68EE ;
+  margin:auto;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+  border-color: #A9A9A9;
+  border: 1px solid;
+}
+::-webkit-input-placeholder {
+   color: #AC58FA;
+   font: 20px verdana, arial, sans-serif;
+}
+
+:-moz-placeholder {
+   color: #AC58FA;
+   font: 20px verdana, arial, sans-serif;
+}
+
+::-moz-placeholder {
+   color: #AC58FA;  
+   font: 20px verdana, arial, sans-serif;
+}
+
+:-ms-input-placeholder {  
+   color: #AC58FA;  
+   font: 20px verdana, arial, sans-serif;
+}
+
+.logar input[type=submit],
+.cadastro input[type=submit], 
+.cevent input[type=submit], 
+.ccoffee input[type=submit],
+.cpessoa input[type=submit],
+.palterar input[type=submit],
+.cfalterar input[type=submit],
+.salterar input[type=submit],
+.palterar a,
+.cfalterar a,
+.ealterar a,
+.salterar a,
+.csala input[type=submit]{
+  color: #8A2BE2;
+  font-weight: bolder;
+  font-size:20px ;
+  text-align: center;
+  text-decoration: none;
+  background: #7B68EE ;
+  margin:auto;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+  border-color: #A9A9A9;
+  border: 1px solid;
+  cursor: pointer;
+}
+.logar p, .cadastro p, .cevent p, .ccoffee p, .csala p, .cpessoa p, .palterar p, .salterar p, .cfalterar p, .ealterar p{
+  font-size: 20px;
+  color: #066a75;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.logar h1, .cadastro h1, .cevent h1, .ccoffee h1, .csala h1, .cpessoa h1,.palterar h1, .salas h1 {
+  padding-bottom: 30px;
+  text-align: static;
+  color: #8A2BE2;
+  font-size: 48px;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+}
+.logar .linka,.cadastro .linka, .cevent .linka, .ccoffee .linka, .csala .linka, .cpessoa .linka{
+  color: #8A2BE2;
+
+}
+.logar .linka a, .cadastro .linka a, .cevent .linka a, .ccoffee .linka a, .csala .linka a, .cpessoa .linka a{
+  color: #8A2BE2;
+  text-align: center;
+  text-decoration: none;
+  background: #7B68EE ;
+  margin:auto;
+  border-radius: 20px;
+  border-color: #A9A9A9;
+  border: 1px solid ;
+  padding: 5px 10px 5px 10px;
+}
+.container{
+  position: auto;
+  top: 10px;
+  width: 50%;   
+  padding: 5px 5% 5px 24.5%;
+
+}
+.coffee,.parti,.salas,.event{
+  border-radius: solid 5px;
+  border-color: #A9A9A9;
+  color: #004400;
+  border: 10px solid #7B68EE;
+  background: #9370DB ;
+  border-radius: 20px ;
+  margin: auto;
+}
+.coffee tr td,.parti tr td, .salas tr td, .event tr td{
+  color:#8A2BE2;
+  border: 6px solid #AC58FA;
+  border-spacing: 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+.coffee tr td a,.parti tr td a, .salas tr td a, .event tr td a{
+  color:#8A2BE2;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: ;
+  color: white;
+  border:none;
+  padding: 1px 2px;
+  margin: 4px 2px;
+}
+.lpai{
+  background-color:#9370DB;
+
+}
+.lpai h2{  
+  margin:1px;
+  text-align: center;
+
+}
+.lpai ul a{
+    text-decoration: none;
+    border: 3px 0px inset #4CAF50;
+    border-radius: 5px;
+    border-color: #A9A9A9;
+}
+.lpai ul{
+  margin:1px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #8A2BE2;
+  padding: 20px 0 2px 2px;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+  border: 0.3px 0px groove #9370DB;
+  border-radius: 5px;
+  background: #9370DB ;
+}
+.del,.alt,.nc{
+  background-color: #380B61;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.logout a,.lpai .nome{
+  background-color: #4B0082;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+}
