@@ -1,7 +1,6 @@
 # sistema 1.0
 sistema de cadastro de eventos
 # sistema
-seleção
 Instalando
 Para executar o projeto, será necessário instalar os seguintes programas:
 https://www.apachefriends.org/pt_br/download.html
