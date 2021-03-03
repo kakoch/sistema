@@ -1,4 +1,4 @@
-# sitema 1.0
+# sistema 1.0
 sistema de cadastro de eventos
 # sistema
 seleção
